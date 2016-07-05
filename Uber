@@ -1,0 +1,72 @@
+
+300
+0
+0
+300  :  600
+3:55:30
+300
+300
+0
+CodeFights IDE
+Description
+Rules
+Readme
+CODEWRITING
+Score: 0/300
+
+Consider a city where the streets are perfectly laid out to form an infinite square grid. In this city finding the shortest path between two given points (an origin and a destination) is much easier than in other more complex cities. As a new Uber developer, you are tasked to create an algorithm that does this calculation.
+
+Given user's departure and destination coordinates, each of them located on some street, find the length of the shortest route between them assuming that cars can only move along the streets.
+
+Example
+
+For departure = [0.4, 1] and destination = [0.9, 3], the output should be
+perfectCity(departure, destination) = 2.7.
+
+Input/Output
+
+    [time limit] 4000ms (py)
+
+    [input] array.float departure
+
+    An array [x, y] of x and y coordinates. It is guaranteed that at least one coordinate is integer.
+
+    Constraints:
+    0.0 ≤ departure[i] ≤ 10.0.
+
+    [input] array.float destination
+
+    The destination is given the same way as the departure location.
+
+    Constraints:
+    0.0 ≤ destination[i] ≤ 10.0.
+
+    [output] float
+
+    The shorted distance between two points along the streets.
+
+code.py
+
+def perfectCity(departure, destination):
+
+​
+
+​
+
+Editor
+Code completion
+On
+Off
+Auto-brackets
+On
+Off
+Editor typeSublime
+Theme
+Dark
+Tests
+Test 1
+Test 2
+Test 3
+Test 4
+Test 5
+⌘
